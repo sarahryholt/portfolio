@@ -1,0 +1,224 @@
+/*Menu*/
+header {
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  background-color: white;
+  line-height: 60px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px #3E1D29;
+  border: 1px solid black;
+   z-index: 1;
+   text-align: center;
+}
+
+.profile-img {
+  width: 65px;
+  position: absolute;
+  left: 55px;
+  padding: 3px;
+}
+
+nav ul {
+  display: inline;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+nav li {
+  display: inline;
+  margin-left: 200px;
+}
+
+nav li a:hover {
+  color: #DEB7C5;
+  font-weight: bolder;
+}
+
+.active {
+  color: black;
+  font-weight: bolder;
+  font-size: 17px;
+}
+
+/* Overskrifter og tekst*/
+h1 {
+  font-size: 25px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h2 {
+  color: black;
+  font-size: 20px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+}
+
+h3 {
+  color: black;
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+p {
+  text-align: left;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 30px;
+}
+
+.text {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+/*Tekstbox*/
+.transbox {
+  width: 700px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  margin-left: 270px;
+  margin-top: 100px;
+  margin-bottom: 0px;
+  bottom: 0;
+  border-radius: 20px;
+}
+
+.transbox p {
+  margin: 10%;
+  font-weight: bold;
+  color: #3F3639;
+}
+
+/*Knap til CV og projekter*/
+.knap {
+  background-color: #32A664;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 40px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid black;
+  text-decoration: none;
+  margin-left: 255px;
+}
+
+/* Dropdown knap */
+.dropbtn {
+  background-color: #32A664;
+  color: white;
+  padding: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 40px;
+  font-family: 'Quicksand', sans-serif;
+  border: 1px solid black;
+  text-align: center;
+}
+
+/* Fikser indholdet i dropdown*/
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  margin-left: -80px;
+  margin-top: -50px;
+}
+
+/* Dropdown indhold*/
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #F2E30C;
+  min-width: 100px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Links i dropdown */
+.dropdown-content a {
+  color: white;
+  padding: 10px 10px;
+  text-decoration: none;
+  display: block;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Skifter farve i dropdown hover */
+.dropdown-content a:hover {
+  background-color: #ffffff;
+  color: black;
+
+}
+
+/* Dropdown menu*/
+.dropdown:hover .dropdown-content {
+  display: block;
+    border-radius: 40px;
+}
+
+/*Webikoner*/
+.fs {
+  background-color: #66CAF2;
+}
+
+.om {
+  background-color: #F2B3D6;
+}
+
+.work {
+  background-color: #32A664;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  width: 15px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  display: block;
+  margin-left: 12px;
+  border: 1px solid black;
+}
+
+.fa-facebook {
+  background: #32A664;
+  color: white;
+}
+
+.fa-instagram {
+  background: #F2B3D6;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #66CAF2;
+  color: white;
+}
+
+footer {
+  height: 100px;
+  text-align: center;
+  font-size: 15px;
+  font-family: 'Quicksand', sans-serif;
+  background-color: white;
+  color: black;
+  width: 100%;
+  border: 1px solid black;
+}
